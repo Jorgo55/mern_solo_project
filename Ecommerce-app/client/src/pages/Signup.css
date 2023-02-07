@@ -1,0 +1,44 @@
+.signup__image--container {
+  height: 450px;
+  width: 640px;
+  background-size: cover;
+  margin-top: 135px;
+}
+
+.signup__image--container {
+  background-image: url(C:\Users\bardh\Desktop\coding_dojo\mern_solo_project\Ecommerce-app\client\Screenshot.png);
+}
+/* .App{
+    background-color: black;
+} */
+
+.navi {
+  background-color: 0C6CFC;
+}
+
+.signup__form--container,
+.login__form--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+
+.login__image--container {
+  background-image: url(C:\Users\bardh\Desktop\coding_dojo\mern_solo_project\Ecommerce-app\client\Screenshot.png);
+  height: 450px;
+  width: 640px;
+  background-size: cover;
+  margin-top: 120px;
+}
+
+@media screen and (max-width: 756px) {
+  .login__image--container,
+  .signup__image--container {
+    display: none;
+  }
+}
+
+/* home https://res.cloudinary.com/learn-code-10/image/upload/v1653947013/yqajnhqf7usk56zkwqi5.png */
+/* https://res.cloudinary.com/learn-code-10/image/upload/v1654093280/xkia6f13xxlk5xvvb5ed.png sale */

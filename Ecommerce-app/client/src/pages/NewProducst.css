@@ -1,0 +1,51 @@
+.images-preview-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100px, 100%), 1fr));
+  gap: 8px;
+  margin-top: 40px;
+}
+
+.image-preview {
+  width: 100px;
+  display: inline-block;
+  position: relative;
+}
+
+.image-preview img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.image-preview i,
+.remove-img-spinner {
+  position: absolute;
+  top: -12px;
+  left: -12px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.image-preview i:hover {
+  color: rgb(25, 0, 255);
+}
+
+.upload-img{
+    color: rgb(13 110 253) ;
+    font-size: 50px;
+
+}
+.new-product__image--container {
+    border: solid rgb(0, 174, 255) 0.6pc;
+  background-image: url(https://thecurrent.pk/wp-content/uploads/2019/12/tech.jpg);
+  /* background-size: cover; */
+  background-position: center;
+  height: 90vh;
+  width: 85vh;
+  margin-right: -30vh;
+}
+.new-product__form--container{
+    border-right: solid rgb(0, 174, 255) 0.3pc;
+
+}

@@ -1,0 +1,35 @@
+.product__carousel--image {
+  max-width: 100%;
+  object-fit: cover;
+  max-height: 500px;
+}
+
+.alice-carousel__prev-btn,
+.alice-carousel__next-btn {
+  display: none !important;
+}
+.desc{
+  margin-left: 230px;
+}
+.imgggg {
+  border: solid black 1px;
+  width: 50rem;
+  height: 30rem;
+  flex-direction: row; 
+  display: flex; 
+}
+.selectt{
+  margin-left: 210px;
+}
+
+.rowww{
+  flex-wrap: nowrap;
+}
+.bttn{
+  background-color: red;
+}
+
+.btnn{
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
